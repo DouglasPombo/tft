@@ -1,0 +1,196 @@
+body{
+    margin: 0px;
+}
+
+#main{
+    overflow-y:hidden;
+    background-image: url(../img/map.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    width: 1853px;
+    height: 1009px;
+
+
+
+    /*max-width:100%;*/
+    /*max-height:100%;*/
+    /*border: 1px solid red;*/
+    /*object-fit: contain;*/
+}
+
+::selection {
+    /*background-color: #352e7e;*/
+    /*color: #fff;*/
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */
+}
+
+button{
+    border: none;
+}
+
+button:focus{
+    outline:0;
+}
+
+.tabuleiroExcluirPosicao{
+    /*border:1px solid;*/
+    width: 124px;
+    height: 100px;
+    float:left;
+}
+
+.tabuleiroPosicao{
+    /*border:1px solid;*/
+    width: 124px;
+    height: 100px;
+    float:left;
+}
+
+#tabuleiro{
+    width: 1200px;
+    height: 100px;
+    /*border:1px solid #44ff3f;*/
+    margin: 10px 0px 0px 130px;
+}
+
+
+#comprarUnidade{
+    float: left;
+}
+
+.unidade{
+    float: left;
+    width: 190px;
+    height: 110px;
+    /*border: 1px solid red;*/
+    background-repeat: no-repeat;
+    padding:3px;
+    margin: 1px 0px 0px 8px;
+
+}
+
+
+.imagemUnidade{
+    cursor:pointer;
+    width: 190px;
+    height: 110px;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+
+}
+
+.sombraImagemUnidade{
+    position: absolute;
+    -webkit-box-shadow: inset 29px -44px 50px -9px #000000;
+    box-shadow: inset 29px -44px 50px -9px #000000;
+    width: 190px;
+    height: 110px;
+    border-width: 1px 1px 0px 1px;
+    border-color: rgba(175,120,10,1) rgba(175,120,10,1) rgba(175,120,10,1) rgba(175,120,10,1);
+    border-style: solid solid none solid;
+    color:#FFFFFF;
+    pointer-events: none
+
+}
+
+
+#compraUnidadeContanier{
+    width: 1225px;
+    height: 160px;
+    border-width: 3px 3px 0px 3px;
+    border-color: #55492c #55492c #55492c #55492c;
+    background-color: #080808;
+    border-style: solid solid none solid;
+    margin: 10px 0px 0px 0px;
+
+}
+
+#compraUnidade{
+    width:  1050px;
+    height: 130px;
+    /*border: 1px solid #ffc748;*/
+    margin: 5px 205px;
+}
+
+#botaoRoletarContanier{
+    width: 180px;
+    height: 70px;
+    /*border:1px solid red;*/
+    /*margin: 0px 0px 0px;*/
+    position: absolute;
+    padding: 8px;
+}
+
+#botaoRoletar{
+    background-image: url(../img/roll.png);
+    background-repeat: no-repeat;
+    background-size: 190px 70px;
+    width: 190px;
+    height: 70px;
+}
+
+#botaoExp{
+    background-image: url(../img/exp.png);
+    margin: 1px -1px;
+    background-repeat: no-repeat;
+    background-size: 190px 70px;
+    width: 190px;
+    height: 70px;
+}
+
+
+
+#comprarUnidadePrincipal{
+    /*border:1px solid #ff22ca;*/
+    width: 1230px;
+    margin: 730px 0px 0px 200px;
+
+    position: fixed;
+    /*border:1px solid red;*/
+
+
+}
+
+
+.ExcluirImagemUnidade{
+    cursor:pointer;
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    border-width: 1px 1px 0px 1px;
+    border-color: #af08ff #af08ff #af08ff #af08ff;
+    border-style: solid solid none solid;
+}
+
+.tagNomeunidade{
+    width: 190px;
+    height: 32px;
+    background: rgb(2,0,36);
+    color:#FFFFFF;
+}
+
+.iconeGold{
+    background-image: url(../img/agoravai.png);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    width: 50px;
+    height: 25px;
+    float:right;
+    margin: 3px;
+    /*border: 1px solid red;*/
+}
+
+.nomeUnidade{
+    float:left;
+    padding: 2px;
+    margin-left: 5px;
+
+
+}
+
+.custoUnidade{
+    margin: -1px 0px 0px 30px;
+}
