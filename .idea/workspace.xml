@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed4e0128-2dc6-427b-86c0-f0842951bb00" name="Default Changelist" comment="" />
+    <list default="true" id="72da2d41-42c1-4673-9702-ebe4bcc2095f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/exp.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/exp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/tft.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/tft.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/teste.php" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,29 +37,19 @@
     <expand />
     <select />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CSS File" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1ceHSzEXX2ftqxJFWIiQ1wyztIa" />
+  <component name="ProjectId" id="1dhULeeq7RCM3rgT81LH4qbRQ1m" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\forum\img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\forum\img\splashArt" />
-      <recent name="C:\wamp64\www\forum\img" />
-      <recent name="C:\wamp64\www\forum\plugins" />
+      <recent name="C:\wamp64\www\tft\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -69,23 +69,27 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ed4e0128-2dc6-427b-86c0-f0842951bb00" name="Default Changelist" comment="" />
-      <created>1590882142647</created>
+      <changelist id="72da2d41-42c1-4673-9702-ebe4bcc2095f" name="Default Changelist" comment="" />
+      <created>1592876763845</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1590882142647</updated>
-      <workItem from="1590882143888" duration="2796000" />
-      <workItem from="1591910049816" duration="21032000" />
-      <workItem from="1592003735424" duration="18832000" />
-      <workItem from="1592063089231" duration="39966000" />
-      <workItem from="1592156431396" duration="23437000" />
-      <workItem from="1592227887734" duration="1405000" />
-      <workItem from="1592260278873" duration="2830000" />
-      <workItem from="1592273725528" duration="10793000" />
+      <updated>1592876763845</updated>
+      <workItem from="1592876765010" duration="3219000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -122,6 +122,13 @@
 
 
             <div id="compraUnidadeContanier">
+
+                <div id="nivelContanier">
+                   <div id="nivelAtual">Nv. 3 </div>
+                    <div id="expAtual">2/6</div>
+                    <div id="barraExp"></div>
+                </div>
+
                 <div id="botaoRoletarContanier">
 
                     <button id="botaoExp" type="button" onclick="new Tft().compraExp();" ></button>

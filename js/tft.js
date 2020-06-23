@@ -4,7 +4,7 @@ function Tft(){
 
         globais = {
             tabuleiroCheio: false,
-            level: 7,
+            level: 1,
             exp:0
         };
 
@@ -193,7 +193,6 @@ function Tft(){
                     unidadeEscolhida = this.probabilidade(unidadesPossiveis['unidadeCusto4']);
                 }else{
                     unidadeEscolhida = this.probabilidade(unidadesPossiveis['unidadeCusto5']);
-                    debugger;
                 }
 
                 break;
@@ -442,8 +441,8 @@ function Tft(){
 
       }
 
-      console.log(globais.exp);
-      console.log(globais.level);
+      //adiciona o nivel atual
+      document.querySelector('#nivelAtual').innerText = 'Nv. '+globais.level;
 
 
 
